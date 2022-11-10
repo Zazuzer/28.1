@@ -26,7 +26,7 @@ class RegPage(WebPage):
     notification_form = WebElement(xpath='//*[@id="page-right"]/div/div/div/form/div[1]/div/div')
     login_button = WebElement(xpath='//*[@id="page-right"]/div/div/div/form/div[1]/div/div/div[2]/button[1]')
     recover_password_button = WebElement(xpath='//*[@id="reg-err-reset-pass"]')
-    close_button = WebElement(xpath='//*[@id="page-right"]/div/div/div/form/div[1]/div/div/div[2]/button[2]')
+    reg_in_form_button = WebElement(xpath='//*[@id="page-right"]/div/div/div/form/div[1]/div/div/div[2]/button[2]')
     error_message_password = WebElement(xpath='//*[@id="page-right"]/div/div/div/form/div[4]/div[1]/span')
     message_must_be_filled_in_cyrillic = WebElement(xpath='//*[@id="page-right"]/div/div/div/form/div[1]/div[2]/span')
     message_passwords_dont_match = WebElement(xpath='//*[@id="page-right"]/div/div/div/form/div[4]/div[2]/span')
